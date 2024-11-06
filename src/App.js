@@ -25,8 +25,11 @@ function App() {
     return ((fahrenheit - 32) * 5) / 9;
   }
   return (
-    <div className="app">
-      <div className="flex flex-col items-center justify-center w-full max-w-screen-md mx-auto min-h-screen ">
+    <div className="app min-h-screen items-center justify-center">
+      <div className="flex items-center justify-center p-4">
+        <h1 className="font-bold text-[30px]">ProStrategix Consulting Weather App</h1>
+      </div>
+      <div className="flex flex-col items-center justify-center w-full max-w-screen-md mx-auto flex-1 ">
         <div className="flex gap-8 items-center justify-center w-full px-2 flex-wrap mx-auto py-8 ">
           <input
             className="block p-3 max-w-[314px]  w-full rounded-full border-0 border-white p text-white shadow-sm ring-1 ring-inset text-xl ring-white placeholder:text-white focus:ring-2 focus:ring-inset focus:ring-indigo-600 bg-transparent"
